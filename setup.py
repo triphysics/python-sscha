@@ -9,6 +9,7 @@ extra_link_args_c = ["-fopenmp"]
 mpi_compile_args = []
 mpi_link_args = []
 
+
 # If true, do not check for parallel
 avoid_parallel_test = True 
 
@@ -88,7 +89,7 @@ SCHAModules = Extension(name = "SCHAModules",
 
 # Prepare the compilation of the Python Conde
 setup( name = "python-sscha",
-       version = "1.2.1",
+       version = "1.4.0",
        description = "Python implementation of the sscha code",
        author = "Lorenzo Monacelli",
        url = "https://github.com/mesonepigreco/python-sscha",
